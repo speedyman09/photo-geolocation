@@ -12,5 +12,4 @@ geolocation.toFile() // Creates a new file called locations.json in the director
 geolocation.returnData() // Returns a promise that returns an array of objects containing name, latitude and longitude if it is resolved.
     .then(data=>console.log(data)) // When it succeeds
     .catch(err=>console.log(err)) // When it fails
-
 ```
